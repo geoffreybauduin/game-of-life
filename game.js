@@ -95,7 +95,7 @@ angular.module("app").controller("GameController", function ($interval) {
         return cnt;
     }
 
-    _setupGrid(50, 50);
+    _setupGrid(30, 30);
 
     _start();
 
