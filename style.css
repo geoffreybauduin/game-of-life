@@ -1,0 +1,24 @@
+body {
+    background-color: #555;
+}
+
+.grid tr, .grid td {
+    border: 1px solid #111;
+}
+
+.grid {
+    margin: 0 auto;
+}
+
+.grid td {
+    width: 22px;
+    height: 22px;
+}
+
+.grid td.active {
+    background-color: #111;
+}
+
+.grid td.inactive {
+    background-color: #fff;
+}

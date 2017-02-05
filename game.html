@@ -1,0 +1,13 @@
+<div class="row">
+    <div class="col-xs-12">
+        Current step: {{ gameCtrl.step }}
+    </div>
+    <div class="col-xs-12 text-center">
+        <table class="grid">
+            <tr ng-repeat="line in gameCtrl.grid">
+                <td ng-repeat="cell in line" ng-class="{'active': cell.active, 'inactive': !cell.active}">
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
